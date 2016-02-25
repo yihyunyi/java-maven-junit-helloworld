@@ -1,0 +1,8 @@
+---
+applications:
+- name: junit-test-app
+  memory: 128M
+  no-route: true
+  path: ./target/java-maven-junit-helloworld-1.0-SNAPSHOT.jar
+  env:
+    JBP_CONFIG_JAVA_MAIN: '{java_main_class: com.example.javamavenjunithelloworld.HelloApp}'
